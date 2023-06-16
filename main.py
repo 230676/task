@@ -6,8 +6,12 @@ import requests
 
 
 # 爬取所有图片
-# @param keyword
 def spider(keyword: str, watermark: bool):
+    '''
+    :param keyword: 
+    :param watermark: 
+    :return: 
+    '''
     start = time.time()
     if watermark:
         watermark = '?x-oss-process=style/p_w1024'
