@@ -5,7 +5,6 @@ import requests
 import threading
 
 # 爬取所有图片
-# @param keyword
 def spider(keyword, watermark):
     start = time.time()
     # keyword = '植物'
